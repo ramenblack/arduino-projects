@@ -35,18 +35,18 @@ void loop() {
   strip.show();
     delay(wait);
     
-  red = red + 8;
-  green = green + 16;
-  blue = blue + 32;
+  red = red + 64;
+  green = green + 32;
+  blue = blue + 16;
   white = white + 1;
 
   // Increment the led.  This can also be done with led++
   led = led + 1;
   
 
-  if (red > 255) red = 0;
-   if (green > 255) green = 0;
-    if (blue > 255) blue = 0;
+  if (red > 255) red = 1;
+   if (green > 255) green = 1;
+    if (blue > 255) blue = 1;
      if (white > 50) white = 0;
        
     if (red < 0) red = 255;
