@@ -1,7 +1,7 @@
-int incomingByte = 0;   // for incoming serial data
+int incomingByte = 0;   
 
 void setup() {
-        Serial.begin(9600);     // opens serial port, sets data rate to 9600 bps
+        Serial.begin(9600);    
 }
 int i = 0;
 void loop() {
